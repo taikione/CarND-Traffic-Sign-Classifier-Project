@@ -113,7 +113,7 @@ To train the model, I used following parameters:
 My final model results were:
 * training set accuracy of 0.990. In[13] Cell
 * validation set accuracy of 0.932. In[12] Cell
-* test set accuracy of 0.921. In[] Cell
+* test set accuracy of 0.921. In[22] Cell
 
 My first model is same as LaNet architecture. But, I did not get accuracy as I expected. In case of using first model, I may get over 0.93 accuracy considering increasing training Epochs. However, I wanted to get over 0.93 accuracy in 20 Epochs. Therefore, I added dropout to fully connected layers in second model. The reason of add to dropout is to prevent overfitting and improve accuracy. By adding dropout, I confirmed Network was able to learn properly even after 10 epoch. (I don't change optimizer, learning rate and batch size.) It was first improvement, but I was able to create a successful model. 
  
@@ -163,7 +163,7 @@ For the 2nd image, The top five softmax probabilities were following.
 | 9.56088305e-01       	| No entry				   						| 
 | 4.39112000e-02     	| Stop				 							|
 | 2.27572343e-07		| Priority road									|
-| 1.64099561e-17	   	| Keep right		 				 			|
+| 1.64099561e-07	   	| Keep right		 				 			|
 | 4.29053237e-08	    | Turn left ahead				  				|
 
 For the 3rd image, The top five softmax probabilities were following.
