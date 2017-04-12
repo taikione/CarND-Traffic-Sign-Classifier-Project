@@ -1,6 +1,11 @@
 data
+traffic-signs-data
 .ipynb_checkpoints
 *.h5
-models
+models.*
 *.swp
 *.p
+.DS_STORE
+tmp
+__pycache__/
+checkpoint
